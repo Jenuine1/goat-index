@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#top{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://cdn.discordapp.com/attachments/727882798479966210/765906292967473152/1602457952.png");
+background-size: cover;
+background-position: 0;
+position: relative;
+}
+
+#mid{
+    width: 100%;
+    height: 900px;
+background-color: rgb(51, 51, 51);
+}
+
+#footer{
+    width: 100%;
+    height: 400px;
+background-color: rgb(29, 29, 29);
+}
+
+#navbar{
+    width: 100%;
+    height: 60px;
+    background: rgb(32, 32, 32);
+    position: fixed;
+    transition: background 0.5s ease;
+    z-index: 1;
+}
+
+#navbarincontent{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.nav-logo{
+    width: 50px;
+}
+.nav-logo1{
+    width: 90px;
+}
+
+#links > ul{
+display: flex;
+}
+#links > ul > li{
+padding-left: 55px;
+list-style-type: none;
+padding-top: 10px;
+}
+#links > ul > li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+#links > ul > li > a:hover{
+    color: rgb(255, 255, 255);
+}
+#links > ul > li > a:after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    position: relative;
+    display: block;
+    transition: width 0.5s ease;
+    top: 3px;    
+
+}
+#links > ul > li > a:hover:after{
+    content: '';
+    width: 100%;
+    height: 2px;
+    color: rgb(221, 221, 221);
+    position: relative;
+    display: block;
+}
+#bottom{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+#bottommid{
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bottom> #bottommid>i{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    transition: bottom 0.5s ease;
+}
+
+#bottomkapsayici{
+    display: block;
+    width: 100%;
+}
+#topcontent{
+    padding-top: 60px;
+}
+
+#topincontent{
+    height: 200px;
+    text-align: center;
+    margin-top: 100px;
+}
+#topincontent > h4,h1{
+    color: white;
+ }
+#topincontent > h4{
+   font-size: 20px;
+}
+#topincontent > h1{
+    font-size: 72px;
+ }
+ #topincontent >a> button{
+    background-color: rgb(37, 37, 37);
+    border: 2px solid black;
+    border-radius: 5000px;
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+    color: white;
+    outline:none;
+    letter-spacing: 5px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    transition: background 0.5s ease;
+    transition: font-size 0.5s ease;
+ }
+ 
+ #topincontent > a>button:hover{
+    background-color: rgb(49, 49, 49);
+    color: rgb(167, 167, 167);
+    outline:none;
+    font-size: 20px;
+    cursor: pointer;
+ }
+ 
+.container{
+width: 80%;
+height:90%;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+top: 5%;
+justify-content: space-evenly;
+background-color:rgb(0, 0, 0);
+flex-wrap: wrap;
+border-radius: 20px;
+overflow:hidden;
+}
+
+.container > iframe{
+    width:100%;
+    height:100%;
+    border:none;
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.459);
+}
+
+.infooter{
+    width:70%;
+    height: 300px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerlogo{
+    width: 100%;
+}
+.footer-item{
+    width: 200px;
+    height: 300px;
+    padding-left: 10px;
+}
+.infooter>div>ul{
+    list-style-type: none;
+    
+}
+.infooter>div>ul>li{
+    padding-top: 10px;
+}
+.infooter>div>ul>li>a{
+ text-decoration: none;    
+ color:white;
+ font-size:16px;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500;
+}
+.infos{
+    display:flex;
+    justify-content: space-around;
+}
+.infoslink > ul{
+    display:flex;
+}
+.infoslink > ul > li{
+    list-style-type: none;
+    padding: 5px;
+}
+.infoslink > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.infoslink2{
+    color:white;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 5px;
+}
+.footersocialmedia{
+    width:100%;
+    height: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: rgb(19, 19, 19);
+}
+.footersocialmedia > ul{
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.footersocialmedia > ul  > li{
+    list-style-type: none;
+    background-color: rgb(8, 8, 8);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    border: solid rgb(32, 32, 32) 2px;
+
+}
+.footersocialmedia > ul  > li > a{
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+}
+
+.footersocialmedia > ul  > li > a:hover{
+ color: rgb(151, 151, 151);
+}
+
+.active{
+    color: rgb(112, 112, 112) !important;
+}
+.infoslink > ul > li > a:hover{
+    color: rgb(175, 175, 175);
+}
+.infooter>div>ul>li>a:hover{
+    color: rgb(175, 175, 175);
+   }
+
+#navbarPhone{
+    display: none;
+    width: 100%;
+    height: 200px;
+    background: rgb(32, 32, 32);
+    position: fixed;
+    top: 60px;
+    z-index: 99;
+}
+
+#linksPhone > ul >li{
+list-style-type:none;
+height: 50px;
+position: relative;
+padding-left: 20px;
+}
+
+#linksPhone > ul >li >a{
+  text-decoration: none;
+  color: white;
+position: absolute;
+top: 25%;
+height: 100%;
+width: 100%;
+font-size: 18px;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+}
+#linksPhone > ul >li:hover{
+background-color: black;
+    }
+   
+   
+    .nav-toggler{
+        color: white;
+        font-size: 40px;
+        background:transparent;
+        border:none;
+        outline: none;
+    }
+       
+    .nav-toggler:hover{
+       cursor: pointer;
+    }
+
+    .displayed{
+        display:block !important;
+    }
