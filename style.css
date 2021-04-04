@@ -283,7 +283,7 @@ overflow:hidden;
     height: 200px;
     background: rgb(32, 32, 32);
     position: fixed;
-    top: 60px;
+    top: 50px;
     z-index: 99;
 }
 
@@ -325,3 +325,4 @@ background-color: black;
     .displayed{
         display:block !important;
     }
+
