@@ -84,6 +84,23 @@
     #links{
         display:none;
     }
+    .nav-logo{
+        width: 30px;
+    }
+    .nav-logo1{
+        width: 60px;
+    }
+    .nav-toggler{
+        font-size:25px;
+    }
+    #navbar{
+        background-color: rgb(32, 32, 32) !important;
+        height: 50px ;
+    }
+    .infoslink > ul{
+        padding-left:0;
+        padding-right:0;
+    }
 
 }
 @media only screen and (min-width: 850px) {
@@ -93,4 +110,6 @@
         display:none;
     }
 
+   
+    
 }
